@@ -14,13 +14,13 @@ This project investigates the effectiveness of finetuning language models (LMs) 
 First, clone the repository:
 
 ```bash
-git clone https://github.com/ezermoysis1/finetuning-with-human-preferences
+git clone https://github.com/ezermoysis1/finetuning-llms-with-conditioning
 ```
 
 Change your directory to where you cloned the files:
 
 ```bash
-cd finetuning-with-human-preference
+cd finetuning-llms-with-conditioning
 ```
 
 Create a virtual environment with Python 3.6 or above:
@@ -97,4 +97,4 @@ python main_evaluate.py args/args_evaluate_main1
 ## Documentation
 Please read the full report of the project [here](https://drive.google.com/file/d/1-lac-XNLTj-8RI8X6_g2iqUPp0JDxfWo/view?usp=sharing)
 
-Link to video [here] [https://drive.google.com/file/d/1bimKTSbA4TTgJOIKiICw0iY0xpcYuSJd/view?usp=sharing]
+Link to video [here][https://drive.google.com/file/d/1bimKTSbA4TTgJOIKiICw0iY0xpcYuSJd/view?usp=sharing]
