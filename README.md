@@ -14,7 +14,7 @@ This project investigates the effectiveness of finetuning language models (LMs) 
 First, clone the repository:
 
 ```bash
-git clone https://github.com/ezermoysis1/finetuning-with-human-preference
+git clone https://github.com/ezermoysis1/finetuning-with-human-preferences
 ```
 
 Change your directory to where you cloned the files:
@@ -81,4 +81,4 @@ python main_pt.py evaluate
 - [@fclarke1](https://github.com/fclarke1)
 
 ## Documentation
-Please read the full report of the project [here](https://drive.google.com/file/d/1zX3HGt0AiCVF5MfM4lKS9Ag_boOhq-_c/view?usp=sharing)
+Please read the full report of the project [here](https://drive.google.com/file/d/1-lac-XNLTj-8RI8X6_g2iqUPp0JDxfWo/view?usp=sharing)
