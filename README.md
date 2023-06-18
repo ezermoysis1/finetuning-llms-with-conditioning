@@ -1,8 +1,8 @@
-# finetuning-with-human-preference
+# finetuning-llms-with-conditioning
 
 ## Project Description
 
-UCL Module Project: Statistical Natural Language Processing (XXX)
+UCL Module Project: Statistical Natural Language Processing (COMP0087)
 
 Date: April 2023
 
@@ -54,29 +54,43 @@ and <|neg|>; are pre-pended to the processed sentences, based on the classificat
 
 We fine-tune GPT-2 on data containing two binary indicators; toxicity and sentiment. By extending the conditioning from one control token to two, we determine the effectiveness of multiple token conditioning, with the view to extending this to more tokens in the future. The performance of the model is determined by its misalignment score. This is defined as the percentage of model generated sentences that contradict the conditioning token. For example, if the prompt is conditioned on ‘nontoxic’, then the model’s misalignment score is the percentage of generated sentences classified as toxic. Thus, the lower the misalignment score, the more effective the conditioning has been. The impact of increasing the number of tokens during fine-tuning is also considered.
 
-
-To train a model with with L = 25% labelled and (1-L) = 75% unlabelled data (referred to as 'M-25' in the report) use the following script. This also trains two benchmark supervised models only, with L% labelled data (referred to as 'M25L' or 'M-25L' in the report, and 100% data respectively ('MU' or M-100'). 
-
-```bash
-python main_pt.py 0.25
-```
-
-To train models with different labelled/unlabelled data splits, change the float after the .py. For example to train a L=35% and the two benchmark models, use the following
+To create the tokenizer, run:
 
 ```bash
-python main_pt.py 0.35
+python scripts/tokenizer_create.py
 ```
 
+To download and create the dataset, run:
+
+```bash
+python main_dataset_create.py args/args_dataset_full
+```
+
+To train models finetunned on (i) toxicity, (ii) sentiment, (iii) toxicity & sentiment, (iv) neither, run respectively:
+```bash
+python main_train args/args_train_tox
+```
+```bash
+!python main_train args/args_train_sen
+```
+```bash
+!python main_train args/args_train_toxsen
+```
+```bash
+!python main_train args/args_train_none
+```
 ### Evaluation 
 
-To evaluate all of the trained models run the following:
+To evaluate all of the trained models run the following. In the yaml file feel free to change the hyperparameters related to text generation (top_p, top_k, max_length, temperature, no_repeat_ngram_size) as desired. The values set are the ones used for the paper experiments. 
 
 ```bash
-python main_pt.py evaluate
+!python main_evaluate.py args/args_evaluate_main1
 ```
 
 ## Authors
 
+- [@ezermoysis1](https://github.com/ezermoysis1)
+- [@fclarke1](https://github.com/fclarke1)
 - [@ezermoysis1](https://github.com/ezermoysis1)
 - [@fclarke1](https://github.com/fclarke1)
 
