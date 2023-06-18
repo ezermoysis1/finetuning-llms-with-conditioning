@@ -91,8 +91,8 @@ To evaluate all of the trained models run the following. In the yaml file feel f
 
 - [@ezermoysis1](https://github.com/ezermoysis1)
 - [@fclarke1](https://github.com/fclarke1)
-- [@ezermoysis1](https://github.com/ezermoysis1)
-- [@fclarke1](https://github.com/fclarke1)
+- [@laura](https://github.com/)
+- [@sam](https://github.com)
 
 ## Documentation
 Please read the full report of the project [here](https://drive.google.com/file/d/1-lac-XNLTj-8RI8X6_g2iqUPp0JDxfWo/view?usp=sharing)
