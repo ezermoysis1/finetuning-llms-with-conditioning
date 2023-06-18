@@ -1,1 +1,1 @@
-# fine-tuning-with-human-preferences
+# finetuning-with-human-preference
