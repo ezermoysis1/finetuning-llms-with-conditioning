@@ -71,20 +71,20 @@ To train models finetunned on (i) toxicity, (ii) sentiment, (iii) toxicity & sen
 python main_train args/args_train_tox
 ```
 ```bash
-!python main_train args/args_train_sen
+python main_train args/args_train_sen
 ```
 ```bash
-!python main_train args/args_train_toxsen
+python main_train args/args_train_toxsen
 ```
 ```bash
-!python main_train args/args_train_none
+python main_train args/args_train_none
 ```
 ### Evaluation 
 
 To evaluate all of the trained models run the following. In the yaml file feel free to change the hyperparameters related to text generation (top_p, top_k, max_length, temperature, no_repeat_ngram_size) as desired. The values set are the ones used for the paper experiments. 
 
 ```bash
-!python main_evaluate.py args/args_evaluate_main1
+python main_evaluate.py args/args_evaluate_main1
 ```
 
 ## Authors
