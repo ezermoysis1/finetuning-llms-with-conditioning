@@ -1,8 +1,6 @@
 from scripts.load_and_run_experiment import load_and_run
 import sys
 
-
-
 if len(sys.argv) > 1:
     file_name = sys.argv[1]
 else:
