@@ -90,6 +90,12 @@ To evaluate all of the trained models run the following. In the yaml file feel f
 python main_evaluate.py args/args_evaluate_main1
 ```
 
+Screenshots of results can be shown below:
+![Project Logo](./images/table2.png)
+![Project Logo](./images/table4.png)
+![Project Logo](./images/table5.png)
+
+
 ## Authors
 
 - [@ezermoysis1](https://github.com/ezermoysis1)
@@ -100,4 +106,4 @@ python main_evaluate.py args/args_evaluate_main1
 ## Documentation
 Please read the full report of the project [here](https://drive.google.com/file/d/1-lac-XNLTj-8RI8X6_g2iqUPp0JDxfWo/view?usp=sharing)
 
-Please read the full report of the project [here](https://drive.google.com/file/d/1bimKTSbA4TTgJOIKiICw0iY0xpcYuSJd/view?usp=sharing)
+PLink to video [here](https://drive.google.com/file/d/1bimKTSbA4TTgJOIKiICw0iY0xpcYuSJd/view?usp=sharing)
