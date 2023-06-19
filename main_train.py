@@ -1,6 +1,7 @@
 from scripts.train import train
 import sys
 
+
 if len(sys.argv) > 1:
     file_name = sys.argv[1]
 else:
