@@ -79,6 +79,9 @@ python main_train args/args_train_toxsen
 ```bash
 python main_train args/args_train_none
 ```
+
+![Project Logo](./images/models.PNG)
+
 ### Evaluation 
 
 To evaluate all of the trained models run the following. In the yaml file feel free to change the hyperparameters related to text generation (top_p, top_k, max_length, temperature, no_repeat_ngram_size) as desired. The values set are the ones used for the paper experiments. 
