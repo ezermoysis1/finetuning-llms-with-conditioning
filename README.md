@@ -80,7 +80,7 @@ python main_train args/args_train_toxsen
 python main_train args/args_train_none
 ```
 
-![Project Logo](./images/models.PNG)
+![Project Logo](./images/models.png)
 
 ### Evaluation 
 
