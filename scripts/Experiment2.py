@@ -265,7 +265,6 @@ class Experiment:
     print("Negative %: {:.1%}".format(negative_percentage))
     print('Toxicity&Sentiment misalignment %: {:.1%}'.format(positive_and_nontoxic_percentage))
 
-
     # initialize list of lists
     data = [[model_name, condition, top_p, 
             top_k, max_new_tokens, temperature,

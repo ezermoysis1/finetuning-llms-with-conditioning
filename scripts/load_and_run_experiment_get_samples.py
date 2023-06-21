@@ -14,7 +14,6 @@ from tqdm import tqdm
 from scripts.yaml_utils import read_one_block_of_yaml_data
 from tabulate import tabulate
 
-
 def load_and_run(input_params, random_seed, prompt):
   # *******LOAD YAML FILE DICTIONARY AND BREAK IT DOWN TO VARIABLES******
   experiment_dict = read_one_block_of_yaml_data(input_params) # To match the yaml file
