@@ -2,7 +2,7 @@
 override_dataset_load_path: False                         # if not using default dataset enter True here and enter the path below
 custom_dataset_load_path: enter_custom_dataset_path_here  # path to custom dataset
 
-# DATASET PARAMS - these are used to load the correct dataset if not using a custom one
+# DATASET PARAMS - these are used to load the correct dataset if not using custom one
 context_length: 64                  # max length of sentences in tokens (has to match dataset)
 tokenizer_load_path: ./tokenizer    # tokenizer used (should be the same for all models)
 seed: 42                            # seed used to create dataset

@@ -17,9 +17,9 @@ batch_size: 64
 epochs_num: 1
 max_number_of_checkpoints: 20
 save_strategy: steps
-save_num_steps: 792                 # 792 steps is half an epoch for 2% data
+save_num_steps: 792                # 792 steps is half an epoch for 2% data
 logging_steps: 20                  # print an update during training every X steps
-is_from_checkpoint: False           # if continuing from a previously finetuned model enter True here with the same params as originally used to fine-tune it above
+is_from_checkpoint: False          # if continuing from a previously finetuned model enter True here with the same params as originally used to fine-tune it above
 
 # CUSTOME MODEL NAME
 override_model_name: False                    # enter True if you want a custome name to save the model down
