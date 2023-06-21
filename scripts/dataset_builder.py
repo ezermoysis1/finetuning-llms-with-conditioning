@@ -18,8 +18,6 @@ from transformers import AutoTokenizer
 import os
 import sys
 
-
-
 def clean_sentence(text):
   # Given a sentence clean it (remove special charecters, etc.)
   clean_sentence = re.sub(r"(@\[A-Za-z0-9]+)|([^0-9A-Za-z ?.'!])|(\w+:\/\/\S+)|^rt|http.+?", "", text)
