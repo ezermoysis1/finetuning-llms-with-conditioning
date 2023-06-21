@@ -146,6 +146,3 @@ def train(input_params):
   
   trainer.save_model(model_save_path + '/final_epoch_'+str(epochs_num))
   print('\n***********\nTraining Complete, Model Saved\n**************')
-
-
-
