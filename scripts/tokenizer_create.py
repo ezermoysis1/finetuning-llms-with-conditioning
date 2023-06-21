@@ -1,7 +1,6 @@
 from transformers import AutoTokenizer
 
 
-
 # ********DOWNLOADS GPT2 TOKENIZER AND ADDS REQUIRED SPECIAL TOKENS *********
 # This tokenizer is used for all models going forward
 
