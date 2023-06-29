@@ -100,8 +100,8 @@ Screenshots of results can be shown below:
 
 - [@ezermoysis1](https://github.com/ezermoysis1)
 - [@fclarke1](https://github.com/fclarke1)
-- [@laura](https://github.com/)
-- [@sam](https://github.com)
+- [@ljjohnston90](https://github.com/ljjohnston90)
+- [@sharrison00](https://github.com/sharrison00)
 
 ## Documentation
 Please read the full report of the project [here](https://drive.google.com/file/d/1-lac-XNLTj-8RI8X6_g2iqUPp0JDxfWo/view?usp=sharing)
